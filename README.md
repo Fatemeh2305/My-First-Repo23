@@ -49,7 +49,7 @@ modern_fastapi_app/
 │   │           email = Column(String(150), nullable=False)
 │   │           message = Column(Text, nullable=False)
 │   │
-│   ├── auth.py
+│   ├── auth.pys
 │   │       import jwt
 │   │       from datetime import datetime, timedelta
 │   │       from fastapi import Request
