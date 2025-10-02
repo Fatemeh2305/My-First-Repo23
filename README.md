@@ -14,7 +14,7 @@ modern_fastapi_app/
 │   │
 │   │       app.mount("/static", StaticFiles(directory="static"), name="static")
 │   │
-│   ├── database.py
+│   ├── database.pys
 │   │       from sqlalchemy import create_engine
 │   │       from sqlalchemy.ext.declarative import declarative_base
 │   │       from sqlalchemy.orm import sessionmaker
