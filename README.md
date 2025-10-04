@@ -32,7 +32,7 @@ modern_fastapi_app/
 │   │           finally:
 │   │               db.close()
 │   │
-│   ├── models.py
+│   ├── models.pys
 │   │       from sqlalchemy import Column, Integer, String, Text
 │   │       from app.database import Base
 │   │
