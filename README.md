@@ -78,7 +78,7 @@ modern_fastapi_app/
 │   │           token = request.cookies.get("token")
 │   │           if not token:
 │   │               return None
-│   │           try:
+│   │           try:.py
 │   │               payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
 │   │               return payload.get("sub")
 │   │           except jwt.ExpiredSignatureError:
