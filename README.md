@@ -50,7 +50,7 @@ modern_fastapi_app/
 │   │           message = Column(Text, nullable=False)
 │   │
 │   ├── auth.pys
-│   │       import jwt
+│   │       
 │   │       from datetime import datetime, timedelta
 │   │       from fastapi import Request
 │   │       from sqlalchemy.orm import Session
