@@ -6,7 +6,7 @@ modern_fastapi_app/
 │   │       from fastapi.staticfiles import StaticFiles
 │   │       from app.routes import router as app_router
 │   │       from app.database import Base, engine
-            else:
+            Flask
 │   │
 │   │       Base.metadata.create_all(bind=engine)
 │   │
