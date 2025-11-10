@@ -150,7 +150,7 @@ modern_fastapi_app/
 │   │           return templates.TemplateResponse("admin.html", {"request": request, "user": user, "messages": messages})
 │   │
 │   └── templates/
-│       ├── base.html
+│       ├── 
 │       │       <!DOCTYPE html>
 │       │       <html lang="en">
 │       │       <head>
