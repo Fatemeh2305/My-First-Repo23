@@ -8,7 +8,7 @@ modern_fastapi_app/
 │   │       from app.database import Base, engine
             
             
-│   │
+│   │        yield 
 │   │       Base.metadata.create_all(bind=engine)
 │   │
 │   │       app = FastAPI(title="Modern FastAPI App", version="1.0.0")
